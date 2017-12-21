@@ -143,22 +143,7 @@ module.exports = CountriesSelect;
 /* 3 */
 /***/ (function(module, exports) {
 
-const CountryInfo = function () {
-  this.ul = document.querySelector('#country-info');
-}
-
-CountryInfo.prototype.render = function (country) {
-  // TODO: Render country info
-}
-
-CountryInfo.prototype.createListItem = function (label, content) {
-  const li = document.createElement('li');
-  li.innerText = `${ label }: ${ content }`;
-  return li;
-}
-
-module.exports = CountryInfo;
-
+throw new Error("Module parse failed: /Users/Daniel/codeclan_work/week_13/day_4/REST-countries-app/client/src/views/country_info.js Unexpected token (8:6)\nYou may need an appropriate loader to handle this file type.\n|   // TODO: Render country info\n| \n|       ????\n| }\n| ");
 
 /***/ }),
 /* 4 */
